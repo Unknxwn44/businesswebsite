@@ -1,0 +1,55 @@
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 400px;
+    margin-right: 400px;
+    margin-top: 15px;
+}
+.left-section a{
+    font-family: Arial;
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+    font-size: 24px;
+}
+.right-section a{
+    text-decoration: none;
+}
+.socials-button,
+.about-button,
+.portfolio-button{
+    background-color: white;
+    color: black;
+    border-color: black;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 3px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    padding-left: 12px;
+    padding-right: 12px;
+    cursor: pointer;
+    transition: background-color 0.15s, color 0.15s;
+}
+.socials-button:hover,
+.about-button:hover,
+.portfolio-button:hover{
+    background-color: black;
+    color: white;
+}
+
+.container-image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+.profile-image{
+    background-color: black;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    cursor: pointer;
+}

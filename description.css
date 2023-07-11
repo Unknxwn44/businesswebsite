@@ -1,0 +1,17 @@
+.container{
+    text-align: center;
+    margin-top: 20px;
+}
+.pricing{
+    font-family: Arial;
+    font-size: 26px;
+}
+.pricing h1{
+    margin-bottom: 0;
+}
+.description-text{
+    font-family: Arial;
+}
+.description-text p{
+    margin-top: 0;
+}
